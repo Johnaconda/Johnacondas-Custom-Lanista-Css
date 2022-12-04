@@ -1,0 +1,193 @@
+html,
+body,
+:not([style*="background-color:"]):not([class*="max-h-14"]) {
+	background-color: rgb(8, 13, 17);
+	background-image: url("");
+}
+html,
+body,
+:not([class*="underline"]),
+.darkmode {
+	color: rgba(234, 213, 162, .66)/*mejoriteten av texten*/
+}
+damage{
+	color: rgb(170, 52, 0) !important;
+}
+
+h1:not([style*="color:"]) {
+	color: rgba(14, 189, 238, .75) !important;
+}
+h2:not([style*="color:"]) {
+	color: rgba(151, 4, 4, .9) !important;
+	/*titlarnar*/
+}
+h3:not([style*="color:"]) {
+	color: rgba(255, 255, 0, .65) !important;
+	/*Min gladiator*/
+}
+h4:not([style*="color:"]) {
+	color: rgb(14, 21, 28) !important;
+	/*vet fan inte...*/
+}
+h5:not([style*="color:"]) {
+	color: rgba(255, 0, 0, .79) !important;
+	/*vet fan inte...*/
+}
+h6:not([style*="color:"]) {
+	color: rgba(238, 174, 14, .71) !important;
+	/*vet inte.*/
+}
+cite:not([style*="color:"]) {
+	color: rgba(18, 238, 14, .71) !important;
+	/*vet fan inte...*/
+}
+
+strong {
+	color: rgba(255, 255, 255, .71)!important;
+	/*Händelser i Strider!*/
+}
+
+.font-semibold:not([style*="bg-red-100"]) {
+	color: rgba(238, 174, 14, .71) !important;
+	/*Fasta texter med mera.*/
+}
+
+.bg-red-100 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(247, 9, 9, .25) !important;
+}
+
+.text-yellow-400 {
+	--tw-text-opacity: 1;
+	color: rgb(182, 185, 28);
+	/*vet fan inte...*/
+}
+
+.text-green-600 {
+	/*historia vintst/förlust texten*/
+	--tw-text-opacity: 1;
+	color: rgb(5, 150, 15);
+}
+
+.text-red-600 {
+	/*historia vintst/förlust texten*/
+	--tw-text-opacity: 1;
+	color: rgb(138, 4, 4);
+}
+
+.text-blue-600 {
+	--tw-text-opacity: 1;
+	color: rgb(5, 150, 15);
+	/*vet fan inte...*/
+}
+
+.text-blue-600:not([class*="mt-1"]) {
+	/* Alla länkar som vanligtvis är blåa, profiler, vapen, osv */
+	--tw-text-opacity: 1;
+	color: rgba(238, 174, 14, .71);
+}
+
+.text-red-700 {
+	--tw-text-opacity: 1;
+	color: rgb(185, 28, 28);
+}
+
+.text-green-700 {
+	--tw-text-opacity: 1;
+	color: rgb(5, 150, 105);/* Slump duell kö text*/
+}
+
+.text-blue-700 {
+	--tw-text-opacity: 1;
+	color: rgb(0, 13, 255);
+}
+
+.battle-text[data-v-7267bb78] blue {
+	/* Lag 1s färg i teammatcher med fler än 2 lag*/
+	--tw-text-opacity: 1;
+	color: rgb(3, 204, 225);
+}
+
+.battle-text[data-v-7267bb78] yellow {
+	/* Lag 4s färg i teammatcher med fler än 2 lag*/
+	--tw-text-opacity: 1;
+	color: rgb(255, 98, 0);
+}
+.fas fa-star text-yellow-400 {
+	/*Stjärnan i turneringar och bataljer i guess?*/
+    color: rgba(18, 238, 14, .71);
+}
+.underline {
+	/*Lagspel m.m Dittnamn med färg och en underline.*/
+    color: rgba(255, 255, 0, .65);
+}
+.span text-xl {
+    color: rgb(68, 2, 2);
+}
+
+.table-responsive {
+	background-image: none !important;
+	background-position: 0, 100%, 0, 100%;
+	background-repeat: no-repeat;
+	background-size: 20px 100%, 20px 100%, 20px 100%, 20px 100%;
+	background-attachment: local, local, scroll, scroll;
+}
+
+input:not([style*="background-color:"]),
+textarea:not([style*="background-color:"]),
+button:not([style*="background-color:"]),
+[role="button"] {
+	background-color: rgba(68, 2, 2, .66) !important;
+	/*knapparna*/
+}
+input:not([style*="background-color:"]):hover,
+textarea:not([style*="background-color:"]):hover,
+button:not([style*="background-color:"]):hover,
+[role="button"]:hover {
+	background-color: rgba(238, 174, 14, .3) !important;
+	/* focus rutorna man skriver i när man drar musen över*/
+}
+input:not([style*="background-color:"]):active,
+textarea:not([style*="background-color:"]):active,
+button:not([style*="background-color:"]):active,
+
+[role="button"]:active {
+	background-color: rgb(255, 255, 0) !important;
+	/*när man trycker på knapparna*/
+}
+input:not([style*="background-color:"]):focus,
+textarea:not([style*="background-color:"]):focus,
+button:not([style*="background-color:"]):focus,
+[role="button"]:focus {
+	background-color: rgba(238, 174, 14, .3) !important;
+	/* focus rutorna man skriver i*/
+}
+a:not([style*="color:"]) {
+	/*profiler m.m*/
+	color: rgb(202, 60, 11) !important;
+}
+a:not([style*="color:"]):hover {
+	color: rgba(238, 174, 14, .38) !important;
+	/* hover över namn på gladiatorer-länk?*/
+}
+a:not([style*="color:"]):active,
+a:not([style*="color:"]):focus {
+	color: rgba(238, 174, 14, .71) !important;
+	/* när man klickar en länk*/
+}
+:not([style*="border-color:"]),
+::before,
+::after {
+	border-color: rgb(68, 2, 2) !important;
+	/*ramen*/
+}
+div:empty,
+input::placeholder,
+textarea::placeholder {
+	color: rgba(238, 174, 14, .71) !important;
+	/*"söktexten"*/
+}
+input:not([style*="background-image:"]),
+textarea:not([style*="background-image:"]) {
+	background-image: none !important;
+}
