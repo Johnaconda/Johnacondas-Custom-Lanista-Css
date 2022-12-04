@@ -15,10 +15,11 @@ div[data-v-f12aa8da], div.chat-message, small.block , .text-xs{
 :is(h1.mb-2.uppercase.font-serif.text-xl), h1:not([style*="color:"]) {
     color: #bfa161;
 }
-:is([data-v-d9bf9b68],button.btn-action.btn.btn-small.w-full),
-	input:not([style*="background-color:"]),
-	textarea:not([style*="background-color:"]),
-	button:not([style*="background-color:"]){
+:is([data-v-d9bf9b68],button.btn-action.btn.btn-small.w-full){
+		background-color:#2e344000
+}
+:is([data-v-f12aa8da], button.btn-action.btn-small.text-xs.float-right),
+	i.fas.fa-times{
 		background-color:#2e344000
 }
 html,
@@ -148,6 +149,7 @@ color: #81a1c1 !important;
 .underline {
     color: #ebcb8b;
 }
+
 .table-responsive {
 	background-image: none !important;
 	background-position: 0, 100%, 0, 100%;
