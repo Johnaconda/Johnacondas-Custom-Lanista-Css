@@ -24,3 +24,8 @@ There will probably be some bugs im no expert at all in coding.
 
 Have a good day.
 //Johnaconda
+
+Examples:
+
+<img src="https://raw.githubusercontent.com/Johnaconda/Johnacondas-Custom-Lanista-Css/main/Examples/NordTheme%20Example.png" alt="NordTheme" title="NordTheme">
+<img src="https://raw.githubusercontent.com/Johnaconda/Johnacondas-Custom-Lanista-Css/main/Examples/DarkRedTheme%20Example.png" alt="DarkRedTheme" title="DarkRedTheme">
