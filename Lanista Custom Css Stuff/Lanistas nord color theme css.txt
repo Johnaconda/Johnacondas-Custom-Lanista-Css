@@ -15,7 +15,12 @@ div[data-v-f12aa8da], div.chat-message, small.block , .text-xs{
 :is(h1.mb-2.uppercase.font-serif.text-xl), h1:not([style*="color:"]) {
     color: #bfa161;
 }
-
+:is([data-v-d9bf9b68],button.btn-action.btn.btn-small.w-full),
+	input:not([style*="background-color:"]),
+	textarea:not([style*="background-color:"]),
+	button:not([style*="background-color:"]){
+		background-color:#2e344000
+}
 html,
 body,
 :not([class*="underline"]),
@@ -36,7 +41,7 @@ h3:not([style*="color:"]) {
 	color: #B48EAD;
 }
 h4:not([style*="color:"]) {
-	color: rgb(14, 21, 28);
+	color: #2e3440;
 }
 h5:not([style*="color:"]) {
 	color: #bf616a;
@@ -83,7 +88,7 @@ strong {
 }
 div.relative, span.text-blue-600.text-sm {
 color: #81a1c1 !important;
-}/*Profiler i matcher*/
+}
 
 :is(.md\:w-1\/2) :not([span]) .font-semibold:not([style*="bg-red-100"])  {
 	color: #bfa161 !important;
@@ -102,7 +107,7 @@ color: #81a1c1 !important;
 }
 
 .text-red-700 {
-	/*varningstexter*/
+	
 	--tw-text-opacity: 1;
 	color: #bf616a;
 }
