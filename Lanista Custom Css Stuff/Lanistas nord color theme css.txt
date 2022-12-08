@@ -1,6 +1,3 @@
-html,
-body,
-
 :not([style*="background-color:"]):not([class*="max-h-14"]) {
 	background-color: #2E3440;
 	background-image: url("");
@@ -23,8 +20,6 @@ div[data-v-f12aa8da], div.chat-message, small.block , .text-xs{
 	i.fas.fa-times{
 		background-color:#2e344000
 }
-html,
-body,
 :not([class*="underline"]),
 .darkmode {
 	color: #D8DEE9;
@@ -227,9 +222,7 @@ body .v-popper--theme-dropdown .v-popper__arrow-container .v-popper__arrow-inner
     color: rgb(255, 0, 217);}*/
 /*Tooltip text color*/
 
-:is([data-v-7a430711] span.capitalize), span.capitalize {
-	color: #b48ead;
-}
+
 div[Data-v-cdee2faa], h2.block.uppercase.font-serif {
 	color: #bfa161 !important;
 }
@@ -241,3 +234,8 @@ t.battle.battleTeams, staticClass{
 }
 .fas.fa-user-slash {
 	background-color: #88c0d000;
+}
+
+:is(data-v-64842a3e span.capitalize) {
+	color: #b48ead;
+}
