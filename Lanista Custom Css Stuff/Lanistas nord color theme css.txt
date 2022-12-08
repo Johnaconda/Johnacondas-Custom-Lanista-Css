@@ -239,3 +239,5 @@ div[data-v-cdee2faa] , div.mt-4 > p.text-sm.mt-1.font-semibold {
 t.battle.battleTeams, staticClass{
 	color:#bf616a !important;
 }
+.fas.fa-user-slash {
+	background-color: #88c0d000;
