@@ -1,5 +1,6 @@
 html,
 body,
+
 :not([style*="background-color:"]):not([class*="max-h-14"]) {
 	background-color: #2E3440;
 	background-image: url("");
@@ -209,15 +210,23 @@ textarea:not([style*="background-image:"]) {
 }
 
 body .v-popper--theme-dropdown .v-popper__inner {
-    background-color: #ebcb8b;
+    background-color: #2e344000;
+	box-shadow: 0 6px 30px #8FBCBB;
     font-size: .75rem;
     line-height: .95rem;
-    max-width: calc(100vw
-vw
- - 10px);
+    max-width: calc(100vw vw - 10px);
     padding: 0.2rem;
     text-align: center;
 }
+body .v-popper--theme-dropdown .v-popper__arrow-container .v-popper__arrow-inner .v-popper__arrow-outer :not([style*="background-color:"]):not([class*="max-h-14"]){
+	color: #2e344000;
+	border-color: #2e344000;
+	background-color: rgba(0, 255, 64, 0);
+}
+/*.v-popper--theme-dropdown, .v-popper__inner :is(div.main-tooltip){
+    color: rgb(255, 0, 217);}*/
+/*Tooltip text color*/
+
 :is([data-v-7a430711] span.capitalize), span.capitalize {
 	color: #b48ead;
 }
