@@ -20,6 +20,9 @@ div[data-v-f12aa8da], div.chat-message, small.block , .text-xs{
 	i.fas.fa-times{
 		background-color:#2e344000
 }
+.fas.fa-user-slash {
+	background-color: #88c0d000;
+}
 :not([class*="underline"]),
 .darkmode {
 	color: #D8DEE9;
@@ -27,7 +30,9 @@ div[data-v-f12aa8da], div.chat-message, small.block , .text-xs{
 damage{
 	color: #BF616A;
 }
-
+:is(data-v-d9bf9b68 text.sm) {
+	color: #bfa161 !important;
+}
 h1:not([style*="color:"]) {
 	color: #bf616a;
 }
@@ -100,8 +105,8 @@ color: #81a1c1 !important;
     color: #bf616a !important;
 }
 :is([data-v-d9bf9b68] .w-7\/12), .w-7\/12 {
-	color: #a3be8c
-}
+	color: #b48ead
+}/*Grad-Kp-Ep... text färger*/
 
 .text-red-700 {
 	
@@ -152,6 +157,9 @@ color: #81a1c1 !important;
 	background-repeat: no-repeat;
 	background-size: 20px 100%, 20px 100%, 20px 100%, 20px 100%;
 	background-attachment: local, local, scroll, scroll;
+}
+.fas.fa-square {
+	color:#81a1c1;
 }
 
 input:not([style*="background-color:"]),
@@ -232,13 +240,8 @@ div[data-v-cdee2faa] , div.mt-4 > p.text-sm.mt-1.font-semibold {
 t.battle.battleTeams, staticClass{
 	color:#bf616a !important;
 }
-.fas.fa-user-slash {
-	background-color: #88c0d000;
-}
 
 :is(data-v-64842a3e span.capitalize) {
 	color: #b48ead;
 }
-.fas.fa-square {
-	color:#81a1c1;
-}
+
