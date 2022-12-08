@@ -143,8 +143,8 @@ color: #81a1c1 !important;
     color: #BF616A;
 }
 .underline {
-    color: #ebcb8b;
-}
+    color: #bfa161;
+}/*Ditt namn i rundorna.*/
 
 .table-responsive {
 	background-image: none !important;
@@ -238,4 +238,7 @@ t.battle.battleTeams, staticClass{
 
 :is(data-v-64842a3e span.capitalize) {
 	color: #b48ead;
+}
+.fas.fa-square {
+	color:#81a1c1;
 }
