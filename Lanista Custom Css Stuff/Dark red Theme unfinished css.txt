@@ -96,9 +96,11 @@ strong {
 .fas.fa-star.text-yellow-400 {
     color: #BF616A;
 }
-.underline {
-    color: #bfa161;
-}
+:is([data-v-3bd8d9cb] .underline){
+	outline-style: inset;
+	outline-width: 1px;
+	text-decoration: none;
+	}/*Ditt namn i rundorna.*/
 .span text-xl {
     color: rgb(68, 2, 2);
 }

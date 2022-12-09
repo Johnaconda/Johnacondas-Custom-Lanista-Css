@@ -23,12 +23,12 @@ div[data-v-f12aa8da], div.chat-message, small.block , .text-xs{
 .fas.fa-user-slash {
 	background-color: #88c0d000;
 }
-:not([class*="underline"]),
-.darkmode {
+:not([class*="underline"]), .darkmode {
 	color: #D8DEE9;
 }
+
 damage{
-	color: #BF616A;
+	color: #bf616a;
 }
 :is(data-v-d9bf9b68 text.sm) {
 	color: #bfa161 !important;
@@ -56,7 +56,7 @@ cite:not([style*="color:"]) {
 }
 
 strong {
-	color: #BF616A !important;
+	color: #b48ead !important;
 }
 
 .font-semibold:not([style*="bg-red-100"]) {
@@ -107,6 +107,9 @@ color: #81a1c1 !important;
 :is([data-v-d9bf9b68] .w-7\/12), .w-7\/12 {
 	color: #b48ead
 }/*Grad-Kp-Ep... text färger*/
+:is(div[data-v-d9bf9b68] p.text-sm) :not([class*="underline"]), .darkmode{
+	color: #b48ead;
+}/*tooltips ikonerna som tillhör -::-*/
 
 .text-red-700 {
 	
@@ -126,7 +129,7 @@ color: #81a1c1 !important;
 
 .battle-text[data-v-8f1e6704] red {
 	--tw-text-opacity: 1;
-	color: #D08770;
+	color: #BF616A;
 }
 
 .battle-text[data-v-8f1e6704] green {
@@ -141,15 +144,17 @@ color: #81a1c1 !important;
 
 .battle-text[data-v-8f1e6704] yellow {
 	--tw-text-opacity: 1;
-	color: #b48ead;
+	color: #ebcb8b;
 }
 
 .fas.fa-star.text-yellow-400 {
     color: #BF616A;
 }
-.underline {
-    color: #bfa161;
-}/*Ditt namn i rundorna.*/
+:is([data-v-3bd8d9cb] .underline){
+	outline-style: inset;
+	outline-width: 1px;
+	text-decoration: none;
+	}/*Ditt namn i rundorna.*/
 
 .table-responsive {
 	background-image: none !important;
@@ -244,4 +249,3 @@ t.battle.battleTeams, staticClass{
 :is(data-v-64842a3e span.capitalize) {
 	color: #b48ead;
 }
-
