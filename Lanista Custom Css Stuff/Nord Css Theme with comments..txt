@@ -352,3 +352,23 @@ select.default-select-sm:hover {
 select.default-select:focus {
     border-color: #88C0D0;  /* Border color when focused */
 }
+
+/* --- Buttons --- */
+button, .btn-action {
+    background-color: #6b7ca0;
+    color: #ebcb8b;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, .btn-action:hover {
+    background-color: #88C0D0;
+    color: #3e4249;
+}
+.a.btn action.inline-block{
+    background-color: #434c5e;
+    color: #5E81AC;
+}
