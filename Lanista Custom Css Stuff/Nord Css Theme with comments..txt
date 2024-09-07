@@ -1,6 +1,4 @@
-html,
-body,
-:not([style*="background-color:"]):not([class*="max-h-14"]) {
+body,html {
 	background-color: #2E3440;
 	background-image: url("");
 }
@@ -28,6 +26,42 @@ body,
 .darkmode {
 	color: #D8DEE9;/*majoriteten av texten*/
 }
+.content {
+    background-color:#2E3440;
+}
+/* --- Table Styling --- */
+table {
+    background-color: #3d4658;
+    color:#d8dee9;
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #171520;
+}
+
+th {
+    background-color: #3d4658;
+    color: #d8dee9; /*table header text färg*/
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+        background-color: #6a80a8;
+        text-align: center;
+    }
+
+tbody tr:nth-child(even) {
+        background-color: #84a2c8;
+        text-align: center;
+    }
+
+tbody tr:nth-child(odd):hover {
+        background-color: #2e3440;
+    }
+tbody tr:nth-child(even):hover {
+        background-color: #2e3440;
+    }
+
 damage{
 	color: #BF616A;
 }
@@ -136,28 +170,46 @@ color: #81a1c1 !important;
 }
 
 
-.battle-text[data-v-8f1e6704] red {
+/* --- Battle Report Team Colors --- */
+/* Styling for Lag names */
+.battle-text red {
 	/* Lag röd's färg*/
-	--tw-text-opacity: 1;
-	color: #D08770;
+    background-color: #3e0106de;
+	color: #bf616a;
+    padding: 1px;
+    border: 1px;
+    outline: 2px;
+    outline-color: #000;
 }
 
-.battle-text[data-v-8f1e6704] green {
+.battle-text green {
 	/* lag grön's färg*/
-	--tw-text-opacity: 1;
+    background-color: #052b01;
 	color: #a3be8c;
+    padding: 1px;
+    border: 1px;
+    outline: 2px;
+    outline-color: #000;
 }
 
-.battle-text[data-v-8f1e6704] blue {
+.battle-text blue {
 	/* lag blå's färg*/
-	--tw-text-opacity: 1;
-	color: #81a1c1;
+    background-color: #08113e;
+	color: #88c0d0;
+    padding: 1px;
+    border: 1px;
+    outline: 2px;
+    outline-color: #000;
 }
 
-.battle-text[data-v-8f1e6704] yellow {
+.battle-text yellow {
 	/* lag guls färg*/
-	--tw-text-opacity: 1;
-	color: #b48ead;
+    background-color: #442e00;
+	color: #ebcb8b;
+    padding: 1px;
+    border: 1px;
+    outline: 2px;
+    outline-color: #000;
 }
 
 .fas.fa-star.text-yellow-400 {
@@ -166,7 +218,7 @@ color: #81a1c1 !important;
 }
 .underline {
 	/*Lagspel m.m Dittnamn med färg och en underline.*/
-    color: #ebcb8b;
+    color: #a3be8c;
 }
 
 .table-responsive {
@@ -208,7 +260,7 @@ button:not([style*="background-color:"]):focus,
 }
 a:not([style*="color:"]) {
 	/*profiler m.m*/
-	color: #81a1c1 !important;
+	color: #d8dee9 !important;
 }
 a:not([style*="color:"]):hover {
 	color: #d8dee9 !important;
@@ -237,7 +289,7 @@ textarea:not([style*="background-image:"]) {
 }
 /*testing stupid shit*/
 body .v-popper--theme-dropdown .v-popper__inner {
-    background-color: #2e344000;
+    background-color: #2e3440fc;
 	box-shadow: 0 6px 30px #8FBCBB;
     font-size: .75rem;
     line-height: .95rem;
@@ -264,4 +316,39 @@ div[data-v-cdee2faa] , div.mt-4 > p.text-sm.mt-1.font-semibold {
 }
 t.battle.battleTeams, staticClass{
 	color:#bf616a !important;
+}
+/* --- Sidebar Styling (Arenan, etc.) --- */
+.sidebar[data-v-712dc87f] {
+        background-color: #545f75; /* Sidebar background */
+        color: #ebcb8b;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+.border-gray-400 { /* annslagstavlans kukfix*/
+    background-color: #545f75;
+    color: #bf616a;
+}
+
+/* --- Select Boxes (e.g., Taktik) --- */
+select.default-select-sm {
+    background-color: #434c5e;  /* Background for dropdown */
+    color: #D8DEE9;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+select.default-select-sm:focus {
+    border-color: #88C0D0;  /* Border color when focused */
+}
+
+select.default-select-sm:hover {
+    color: #ebcb8b;
+    
+}
+
+select.default-select:focus {
+    border-color: #88C0D0;  /* Border color when focused */
 }
