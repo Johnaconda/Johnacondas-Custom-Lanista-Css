@@ -7,7 +7,6 @@
    ========================= */
 :root{
   /* CORE SURFACES */
-
   --ui-bg:        #1f242c;                 /* optional page bg */
   --ui-panel:     rgba(46,52,64,.75);
   --ui-panel-2:   rgba(46, 52, 64, .86);
@@ -108,7 +107,6 @@
   --chat-input-ph:  rgba(236,239,244,.55);
 
   /* Navigation / links sidebars */
-
   --nav-link:          var(--ui-link);
   --nav-link-hover:    var(--ui-link-hover);
   --nav-link-active:   var(--ui-text);
@@ -135,7 +133,6 @@
   --tab-pad-x:       .65rem;
 
   /* Button system global */
-
   --btn-bg:            rgba(15,18,24,.78);
   --btn-bg-hover:      rgba(15,18,24,.90);
   --btn-bg-active:     rgba(15,18,24,.96);
@@ -161,7 +158,6 @@
   --page-bg-color:   #2E3440; /* solid fallback */
   --page-bg-image:   url("https://raw.githubusercontent.com/Johnaconda/Johnacondas-Custom-Lanista-Css/refs/heads/main/Background-images/NordBG.png");
   --page-bg-overlay: rgba(46,52,64,0.72); /* unused if you removed overlay */
-    
   --notice-warn-bg: rgba(235, 203, 139, 0.14);
   --notice-warn-border: rgba(235, 203, 139, 0.55);
   --notice-warn-text: rgba(236, 239, 244, 0.92);
@@ -1519,16 +1515,12 @@ p:has(+ #messages) input[type="checkbox"]{
   line-height: 1.4 !important;
 }
 
-.content.md\:w-8\/12:has(.battle-text)
-.mt-2.border.rounded.border-gray-300.p-2.text-xs.flex.relative,
-.content.md\:w-8\/12:has(.battle-text)
-.mt-2.border.rounded.border-gray-300.p-2.text-xs.flex.relative span.block.md\:inline,
-.content.md\:w-8\/12:has(.battle-text)
-.mt-2.border.rounded.border-gray-300.p-2.text-xs.flex.relative p.border-t{
+.content.md\:w-8\/12:has(.battle-text) .mt-2.border.rounded.border-gray-300.p-2.text-xs.flex.relative,
+.content.md\:w-8\/12:has(.battle-text) .mt-2.border.rounded.border-gray-300.p-2.text-xs.flex.relative span.block.md\:inline,
+.content.md\:w-8\/12:has(.battle-text) .mt-2.border.rounded.border-gray-300.p-2.text-xs.flex.relative p.border-t{
   color: var(--br-nord-pink) !important;
 }
 
-.content.md\:w-8\/12:has(.battle-text)
-.mt-2.border.rounded.border-gray-300.p-2.text-xs.flex.relative i{
+.content.md\:w-8\/12:has(.battle-text) .mt-2.border.rounded.border-gray-300.p-2.text-xs.flex.relative i{
   color: color-mix(in srgb, var(--br-nord-pink) 75%, transparent) !important;
 }
