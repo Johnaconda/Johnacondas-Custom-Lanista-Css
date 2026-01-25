@@ -25,7 +25,12 @@ There will probably be some bugs im no expert at all in coding.
 Have a good day.
 //Johnaconda
 
-Examples:
+New Theme Example:
+<img src="https://raw.githubusercontent.com/Johnaconda/Johnacondas-Custom-Lanista-Css/main/Examples/JohnacondasnewTheme-example1.PNG" alt="JohnacondaTheme1" title="JohnacondaTheme1">
+<img src="https://raw.githubusercontent.com/Johnaconda/Johnacondas-Custom-Lanista-Css/main/Examples/JohnacondasnewTheme-example2.PNG" alt="JohnacondaTheme2" title="JohnacondaTheme2">
+<img src="https://raw.githubusercontent.com/Johnaconda/Johnacondas-Custom-Lanista-Css/main/Examples/JohnacondasnewTheme-example3.PNG" alt="JohnacondaTheme3" title="JohnacondaTheme3">
+
+old Examples:
 
 <img src="https://raw.githubusercontent.com/Johnaconda/Johnacondas-Custom-Lanista-Css/main/Examples/NordTheme%20Example.png" alt="NordTheme" title="NordTheme">
 <img src="https://raw.githubusercontent.com/Johnaconda/Johnacondas-Custom-Lanista-Css/main/Examples/DarkRedTheme%20Example.png" alt="DarkRedTheme" title="DarkRedTheme">
