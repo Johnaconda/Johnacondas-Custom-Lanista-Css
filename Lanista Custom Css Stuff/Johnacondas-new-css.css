@@ -1456,3 +1456,33 @@ p:has(+ #messages) input[type="checkbox"]{
   color: inherit !important;
   text-decoration:none !important;
 }
+
+.content.md\:w-8\/12:has(.battle-text) .battle-text strong{
+  display: inline-block !important;
+  padding: 0.04rem 0.28rem !important;
+  border-radius: 8px !important;
+  line-height: 1.15 !important;
+  transform: translateY(-0.5px);
+  color: var(--br-strong-fg, #f4efec) !important;
+  background: var(--br-strong-bg, rgba(236,239,244,0.10)) !important;
+  border: 1px solid var(--br-strong-border, rgba(236,239,244,0.18)) !important;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.10) inset;
+  text-shadow: none !important;
+}
+
+.content.md\:w-8\/12:has(.battle-text) .battle-text strong:has(red),
+.content.md\:w-8\/12:has(.battle-text) .battle-text strong:has(green),
+.content.md\:w-8\/12:has(.battle-text) .battle-text strong:has(blue),
+.content.md\:w-8\/12:has(.battle-text) .battle-text strong:has(yellow){
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: none !important;
+  display: inline !important;
+}
+
+.content.md\:w-8\/12:has(.battle-text) .battle-text strong{
+  font-weight: 800 !important;
+}
+
