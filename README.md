@@ -1,11 +1,22 @@
-# Johnacondas Custom Lanista Css
+# Johnacondas Custom Lanista Css old-lanista
+
+######    ######      ####   #      #####      #         #     #   #    ####   #    #  #####
+#     #  #           #    #  #      #    #     #        # #     # #    #    #  #    #    #  
+######    #####      #    #  #      #    #     #       #   #     #     #    #  #    #    #  
+#              #     #    #  #      #    #     #       #####     #     #    #  #    #    #  
+#        ######       ####   ###### #####      ######  #   #     #      ####    ####     #  
+This Custom CSS might not be functional anymore and i have really no intention in keeping it alive unless i get my ass back into the game..
+Edited 2026-08-11
+
+// Johnaconda
+
  Some Custom Css for Lanista
  
  Thanks to Alven Anna we are now able to customize our layout for the web browser game Lanista!
  original Discord post:
  https://discord.com/channels/819666674935922768/845293889606778880/845294655234375680
 
-For this Css to work i am using Stylus wich is an addon/plugin you get to your browser. i am currently using chrome but it works for firefox aswell.
+For this Css to work i am using Stylus wich is an addon/plugin you get to your browser. i am currently using chrome but it works for firefox as-well.
 
 Addon for firefox: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
 Plugin for chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en
