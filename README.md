@@ -1,10 +1,6 @@
 # Johnacondas Custom Lanista Css old-lanista
 
-######    ######      ####   #      #####      #         #     #   #    ####   #    #  #####
-#     #  #           #    #  #      #    #     #        # #     # #    #    #  #    #    #  
-######    #####      #    #  #      #    #     #       #   #     #     #    #  #    #    #  
-#              #     #    #  #      #    #     #       #####     #     #    #  #    #    #  
-#        ######       ####   ###### #####      ######  #   #     #      ####    ####     #  
+# Attention #
 This Custom CSS might not be functional anymore and i have really no intention in keeping it alive unless i get my ass back into the game..
 Edited 2026-08-11
 
